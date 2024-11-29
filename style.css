@@ -1,0 +1,10 @@
+/* Sparkle effect canvas styling */
+canvas#sparkleCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Ensures canvas doesn't block clicks */
+    z-index: 1000; /* Renders above other elements */
+}
+
+
