@@ -18,8 +18,6 @@
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com" rel="preconnect">
 
-
-
   <!-- Vendor CSS Files -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -33,6 +31,30 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
   </style>
+
+  <!--                    -->
+  <style>
+    .skills-container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .skills-column {
+      width: 48%;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    progress {
+      width: 100%;
+      height: 15px;
+    }
+  </style>
+  <!--          -->
 
   <!-- mesagebox servisses -->
   <link href="mesagebox/style.css" rel="stylesheet">
@@ -64,9 +86,9 @@
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#skills"><i class="bi bi-file-earmark-text navicon"></i>Skills </a></li>
+        <!-- <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i>Resume </a></li> -->
+        <!-- <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li> -->
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
@@ -75,20 +97,33 @@
 
   <main class="main">
 
+
+
+
+    <!--  dvdfbdflkndskfnsdk f-->
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
       <img src="img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Shinde Satyam</h2>
-        <p>I'm <span class="typed"
-            data-typed-items="Fullstack Developer, DSA problem solver,Python-Developer, A.I and Data Scientist  ">Designer</span><span
+        <p>I'm a Data Scientist</p>
+          <!-- <span class="typed" data-typed-items="Fullstack Developer, DSA problem solver,Python-Developer, A.I and Data Scientist , photographer "></span><span
             class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-            <div><a id="but" href="Satyam Shinde Resume.pdf " target="_blank">My Resume </a></div>
+            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p> -->
+
       </div>
-      
+      <div class="container" data-aos="fade-up" data-aos-delay="100"> <!-- click button add that -->
+        <p>
+        <form>
+          <h2>
+
+          </h2>
+          <!-- <a href="#Projects"><button>my hire me</button></a> -->
+        </form>
+        </p>
+
+
+      </div>
 
     </section><!-- /Hero Section -->
 
@@ -99,114 +134,40 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
         <p>I am a developer with a strong foundation in Java, focusing on basic concepts and Data Structures and
-          Algorithms (DSA). I am also skilled in Python, which I use for foundational programming and problem-solving.
-          My interest in technology extends to Artificial Intelligence and Data Science, where I explore data-driven
-          insights and intelligent solutions.</p>
+          Algorithms (DSA). I am also skilled in Python, which I use for foundational programming and problem-solving..
+        </p>
+        <p>I have experience as a Data Analyst, where I work with datasets to uncover trends, perform statistical
+          analysis, and create visualizations using tools like pandas, NumPy, and Power BI. Additionally, as a Data
+          Scientist, I explore Machine Learning models, predictive analytics, and AI-driven solutions to extract
+          meaningful insights from data.</p>
         <p>On the development side, I have completed frontend development, including proficiency in Bootstrap for
           creating responsive and elegant web designs. I am now working on enhancing my backend development skills to
           become a well-rounded full-stack developer.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
             <img src="img/my-profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
-            <h2>Web Developer.</h2>
+            <h2>Data Analyst.</h2>
             <p class="fst-italic py-3">
-              I’m dedicated to creating visually appealing and user-friendly websites and applications. From designing
-              intuitive user interfaces to implementing full-fledged web applications, I focus on providing seamless
-              user experiences.
+              I have experience as a Data Analyst, where I analyze datasets, uncover trends, and extract valuable
+              insights to support data-driven decision-making. I specialize in data visualization, statistical analysis,
+              and reporting using tools like pandas, NumPy, and Power BI. My expertise includes working with structured
+              and unstructured data, performing exploratory data analysis (EDA), and creating interactive dashboards to
+              present meaningful insights.
             </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>12 March 2002</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 8767700148</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Pune, Maharashtra</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Tech (2020-2024)</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>M.Tech (2024-2026)</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                    <span>satyam.shinde24@pcu.edu.in</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>shindesatyam72@gmail.com</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <p class="py-3">
-              I’m dedicated to creating visually appealing and user-friendly websites and applications. From designing
-              intuitive user interfaces to implementing full-fledged web applications, I focus on providing seamless
-              user experiences.
-            </p>
+
           </div>
         </div>
-
       </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Stats Section -->
-
-
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Beginner-level-Projects</strong><span>cocepts_notes_frontend</span> </p>
-            </div>
-          </div>
-          <!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Medium-Level-Projects</strong></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>high-Level-Projects :</strong> <span></span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><a href="https://github.com/8767satyamshinde" target="_blank">click me more project show</a> </p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
     </section>
-    <!-- /Stats Section -->
+
+
+
+
 
     <!-- Skills Section -->
     <section id="skills" class="skills section light-background">
@@ -223,94 +184,55 @@
           ability to develop full-stack web solutions.</p><br>
         <p>Additionally, I have a growing interest in AI and Data Science, where I am leveraging machine learning
           techniques to analyze data and create predictive models.</p>
-
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">82%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">35%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
+      <div class="skills-container">
+        <!-- Left Column -->
+        <div class="skills-column">
+          <label for="ai">AI & Data Scientist:</label>
+          <progress id="ai" value="70" max="100"></progress> <br>
 
 
-            <div class="progress">
-              <span class="skill"><span>MEARN STACK </span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-          </div>
+          <label for="html">Python :</label>
+          <progress id="html" value="90" max="100"></progress><br>
 
-          <div class="col-lg-6">
-            <div class="progress">
-              <span class="skill"><span>Python</span> <i class="val">91%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
+          <label for="data-analyst">SQL</label>
+          <progress id="data-analyst" value="93" max="100"></progress><br>
 
-            <div class="progress">
-              <span class="skill"><span>Basic-Java</span> <i class="val">93%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
+          <label for="powerbi">Power BI / Tableau</label>
+          <progress id="powerbi" value="85" max="100"></progress> <br>
 
-            <div class="progress">
-              <span class="skill"><span>DSA</span> <i class="val">77%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
+          <label for="tableau">MS Excel</label>
+          <progress id="tableau" value="80" max="100"></progress> <br>
+          <label for="dsa">ML AND DL</label>
+          <progress id="dsa" value="77" max="100"></progress> <br>
+          <label for="java">Basic Java:</label>
+          <progress id="java" value="93" max="100"></progress> <br>
 
-            <div class="progress">
-              <span class="skill"><span>AI & Data Scientist</span> <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
+          <label for="dsa">DSA:</label>
+          <progress id="dsa" value="77" max="100"></progress> <br>
 
         </div>
 
+
+
+
       </div>
+    </section>
 
-    </section><!-- /Skills Section -->
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
 
-      <!-- Section Title -->
+
+
+
+
+
+
+
+    <!-- -->
+
+    <!-- <section id="resume" class="resume section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
         <p>I am a passionate and dedicated developer with expertise in Java and Python. My proficiency in Java extends
@@ -322,15 +244,11 @@
           problem-solving and analytical abilities.</p>
         <p>I am eager to contribute my skills in a professional environment, collaborate with a team, and continue to
           grow as a developer.</p>
-      </div><!-- End Section Title -->
-
+      </div>
       <div class="container">
-
         <div class="row">
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Summary</h3>
-
             <div class="resume-item pb-0">
               <h4>Shinde Satyam</h4>
               <p id="justify1">I am a graduate in Computer Engineering (BE) from Anantrao Pawar College of Engineering &
@@ -352,14 +270,11 @@
                   <a href="https://www.linkedin.com/in/satyam-shinde-582b75239/" class="linkedin"><i
                       class="bi bi-linkedin"></i></a>
                 </span>
-
-
                 <li>(+91) 8767700148</li>
                 <li>shindesatyam72@gmail.com</li>
                 <li>satyam.shinde24@pcu.edu.in</li>
               </ul>
-            </div><!-- Edn Resume Item -->
-
+            </div>
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>BE </h4>
@@ -367,22 +282,17 @@
               <h5>2020 - 2024</h5>
               <p><em>Anantrao Pawar College of Engineering & Research, Parvati, Pune.</em></p>
               <h4>CGP : 7.8 .</h4>
-
               <h4>M.Tech</h4>
               <h5>Computer Engineering in AI</h5>
               <h5>2024 - 2026</h5>
               <p><em>Pimpri Chinchwad University, Maval.</em></p>
               <h4>CGP : ___.</h4>
-            </div><!-- Edn Resume Item -->
-
+            </div>
           </div>
 
 
-          <!--      -->
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Professional Experience</h3>
-
-            <!-- Frontend Development Project -->
             <div class="resume-item">
               <h4>Python-based OpenAI Desktop Voice Assistant Project</h4>
               <h5>BE Final Year Project</h5>
@@ -394,55 +304,62 @@
                 <li>Implemented natural language processing (NLP) features and integrated AI-driven responses.</li>
                 <li>Focused on creating a user-friendly interface while optimizing backend logic to ensure efficient
                   communication between voice commands and system operations.</li>
-
               </ul>
-            </div><!-- End Resume Item -->
-
-            <!-- Backend Development Project (OpenAI Desktop Project) -->
-            <div class="resume-item">
-              <h4>Frontend Development Mini-Projects</h4>
-              <h5>Self-driven Projects</h5>
-              <h5>(July - November 2024)</h5>
-
-              <ul>
-                <li>Worked on multiple frontend projects using HTML, CSS, and JavaScript.</li>
-                <li>Created responsive and interactive web pages to enhance user experience and interface functionality.
-                </li>
-                <li>Gained hands-on experience in web design and development, improving skills in creating visually
-                  appealing and user-friendly websites..</li>
-              </ul>
-            </div><!-- End Resume Item -->
-
-            <!-- M.Tech Admission -->
-            <div class="resume-item">
-              <h4>M.Tech in Computer Engineering (AI)</h4>
-              <!-- <h5>October 2024 - Ongoing</h5> -->
-              <p><em>Pimpri Chinchwad University (PCU), 2024 - Present</em></p>
-              <ul>
-                <li>Admitted to the <strong> M.Tech program in Computer Engineering with a specialization in Artificial
-                    Intelligence (AI)</strong> in October 2024.</li>
-                <li>Focused on deepening knowledge in AI, machine learning, and backend systems.</li>
-              </ul>
-            </div><!-- End Resume Item -->
-
-          </div><!-- End of Column -->
+            </div>
+            
 
 
-        </div>
 
-      </div>
 
-    </section><!-- /Resume Section -->
+
+
+    <div class="resume-item">
+      <h4>Frontend Development Mini-Projects</h4>
+      <h5>Self-driven Projects</h5>
+      <h5> 2024</h5>
+
+      <ul>
+        <li>Worked on multiple frontend projects using HTML, CSS, and JavaScript.</li>
+        <li>Created responsive and interactive web pages to enhance user experience and interface functionality.
+        </li>
+        <li>Gained hands-on experience in web design and development, improving skills in creating visually
+          appealing and user-friendly websites..</li>
+      </ul>
+    </div>
+
+  
+    <div class="resume-item">
+      <h4>M.Tech in Computer Engineering (AI)</h4>
+  
+      <p><em>Pimpri Chinchwad University (PCU), 2024 - Present</em></p>
+      <ul>
+        <li>Admitted to the <strong> M.Tech program in Computer Engineering with a specialization in Artificial
+            Intelligence (AI)</strong> in October 2024.</li>
+        <li>Focused on deepening knowledge in AI, machine learning, and backend systems.</li>
+      </ul>
+    </div>
+
+    </div>
+
+
+    </div>
+
+    </div>
+
+    </section> -->
 
 
 
     <!--                                          1234567890                                                                    -->
     <!-- Portfolio Section -->
+
+
+    <!-- 
+
     <section id="portfolio" class="portfolio section light-background">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Projects</h2>
+        <h2>Frontend Project :- (HTML , CSS , JS)</h2>
         <p>Welcome to my project portfolio—a testament to my journey of learning, growth, and practical experience in
           web development. Each project represents a milestone in my passion for crafting user-friendly, innovative, and
           impactful digital solutions. From building dynamic e-commerce platforms to designing inspiring fitness
@@ -451,7 +368,7 @@
           <br><br>
           Explore my work and see how each experience shapes my approach to delivering exceptional digital experiences.
         </p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
@@ -463,10 +380,10 @@
             <li data-filter=".filter-product"> fitness-websites </li>
             <li data-filter=".filter-branding">Restaurant-website</li>
             <li data-filter=".filter-books">Remening-Websites</li>
-          </ul><!-- End Portfolio Filters -->
+          </ul>
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-            <!-- ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt -->
+
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
@@ -480,7 +397,7 @@
                     title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
@@ -488,14 +405,13 @@
                 <div class="portfolio-info">
                   <h4>Fitness 1</h4>
                   <p>Cutting Edge Fitness Gym</p>
-                  <a href="img/portfolio/product-1.png" title="Product 1"
-                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/product-1.png" title="Product 1" data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://8767satyamshinde.github.io/gym/" target="_blank" title="More Details"
                     class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
@@ -503,14 +419,13 @@
                 <div class="portfolio-info">
                   <h4>Branding 1</h4>
                   <p>Food For Health</p>
-                  <a href="img/portfolio/branding-1.png" title="Branding 1"
-                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/branding-1.png" title="Branding 1" data-gallery="portfolio-gallery-branding"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://8767satyamshinde.github.io/restaurant-web/#" target="_blank" title="More Details"
                     class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <div class="portfolio-content h-100">
@@ -524,7 +439,7 @@
                     class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
@@ -538,7 +453,7 @@
                     target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
@@ -546,14 +461,13 @@
                 <div class="portfolio-info">
                   <h4>Fitness 2</h4>
                   <p>Take advantage of your body</p>
-                  <a href="img/portfolio/product-2.png" title="Product 2"
-                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/product-2.png" title="Product 2" data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://8767satyamshinde.github.io/Gym-website-Mockup/" target="_blank" title="More Details"
                     class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
@@ -561,14 +475,13 @@
                 <div class="portfolio-info">
                   <h4>Branding 2</h4>
                   <p>Welcome to Foodie</p>
-                  <a href="img/portfolio/branding-2.png" title="Branding 2"
-                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/branding-2.png" title="Branding 2" data-gallery="portfolio-gallery-branding"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://8767satyamshinde.github.io/Restaurant-website/" target="_blank" title="More Details"
                     class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <div class="portfolio-content h-100">
@@ -576,14 +489,13 @@
                 <div class="portfolio-info">
                   <h4>Books 2</h4>
                   <p>Shinde_Shai photography</p>
-                  <a href="img/portfolio/books-2.png" title="photography_web"
-                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/books-2.png" title="photography_web" data-gallery="portfolio-gallery-book"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://8767satyamshinde.github.io/photography-page-concept/" target="_blank"
                     title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
@@ -597,7 +509,7 @@
                     class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
@@ -605,14 +517,13 @@
                 <div class="portfolio-info">
                   <h4>Fitness 3</h4>
                   <p>Get Fit , Strong and Healthy </p>
-                  <a href="img/portfolio/product-3.png" title="Product 3"
-                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/product-3.png" title="Product 3" data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://8767satyamshinde.github.io/Gym-Website/#pablo" target="_blank" title="More Details"
                     class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
@@ -620,14 +531,13 @@
                 <div class="portfolio-info">
                   <h4>Branding 3</h4>
                   <p>Eat Right Food</p>
-                  <a href="img/portfolio/branding-3.png" title="Branding 2"
-                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
+                  <a href="img/portfolio/branding-3.png" title="Branding 2" data-gallery="portfolio-gallery-branding"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://8767satyamshinde.github.io/Restaurant-Websited/#food-menu" target="_blank"
                     title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <div class="portfolio-content h-100">
@@ -641,24 +551,23 @@
                     class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-          </div><!-- End Portfolio Container -->
-          <!-- tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt -->
+          </div>
 
 
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Section -->
-
-
-
-
-    <section id="services" class="services section">
-      <h5 id="center"> The "Services" section is in progress .......?</h5>
     </section>
+ -->
+
+
+
+    <!-- <section id="services" class="services section">
+      <h5 id="center"> The "Services" section is in progress .......?</h5>
+    </section> -->
 
     <!--     
     <section id="services" class="services section">
@@ -858,19 +767,16 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
         <p>
-          Hi, I’m <strong>Satyam Shinde</strong>, a passionate computer engineer. I completed my <strong>B.Tech in
-            Computer Engineering</strong> from Anantrao Pawar College of Engineering & Research (APCOER) between
-          2020–2024. Currently, I’m pursuing my <strong>M.Tech in Computer Engineering</strong> with a specialization in
-          Artificial Intelligence at Pimpri Chinchwad University. I am always eager to connect with like-minded
-          individuals and explore new ideas, collaborations, and opportunities in the AI and tech fields.
+            Hi, I’m <strong>Satyam Shinde</strong>, a passionate computer engineer and AI enthusiast. I completed my <strong>BE in Computer Engineering</strong> from Anantrao Pawar College of Engineering & Research (APCOER) (2020–2024) and am currently pursuing my <strong>M.Tech in Computer Engineering</strong> with a specialization in Artificial Intelligence at Pimpri Chinchwad University.  
         </p><br>
         <p>
-          If you have any questions, ideas, feedback, or would like to discuss potential opportunities, please don’t
-          hesitate to reach out! Whether it's about my portfolio, working on new projects, sharing insights, or
-          collaborating, I would love to hear from you. Simply fill out the form below, and I’ll get back to you as soon
-          as possible. Your thoughts and messages are always welcome.
+            With experience in Data Science, AI, and Full-Stack Development, I’m always eager to connect with like-minded professionals, collaborate on innovative projects, and explore opportunities in the tech field.  
+        </p><br>
+        <p>
+            If you have any questions, ideas, or collaboration proposals, feel free to reach out. Whether it’s discussing AI advancements, working on data-driven solutions, or brainstorming new projects, I’d love to connect. Fill out the form below, and I’ll get back to you as soon as possible!  
         </p>
-      </div>
+    </div>
+    
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
